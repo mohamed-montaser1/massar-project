@@ -1,0 +1,82 @@
+@use "./layout/hero";
+@use "./layout/trees-project";
+@use "./layout/needs";
+@use "./layout/all-needs";
+@use "./layout/pricing";
+@use "./layout/contact";
+@use "./layout/footer";
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Almarai;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main-heading {
+  text-align: center;
+  line-height: 5rem;
+  font-size: 3.096rem;
+  color: #000000;
+  @media (max-width: 462px) {
+    font-size: 2rem;
+  }
+}
+
+.btn {
+  background-color: #ffe700;
+  color: #000000;
+  height: 3.6875rem;
+  width: 16.25rem;
+  border-radius: 0;
+  display: block;
+  cursor: pointer;
+  transition: background-color 300ms ease;
+  border: none;
+  margin: {
+    inline: auto;
+    top: 20px;
+  }
+  font: {
+    size: 1.4861rem;
+    family: Almarai;
+    weight: 700;
+    style: normal;
+  }
+  &:hover {
+    background-color: #dbc100;
+  }
+}
+
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #ffffff !important;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-a {
+  text-decoration: none;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}

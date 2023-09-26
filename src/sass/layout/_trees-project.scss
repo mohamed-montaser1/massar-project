@@ -1,0 +1,16 @@
+.trees-project {
+  p {
+    text-align: center;
+    line-height: 2.25rem;
+    font-size: 1.2384rem;
+    &.last {
+      width: 788px;
+      max-width: 90%;
+      margin-inline: auto;
+    }
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}

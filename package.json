@@ -1,0 +1,43 @@
+{
+  "name": "massar",
+  "version": "1.0.0",
+  "description": "massar website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "serve": "webpack serve --mode production"
+  },
+  "keywords": [
+    "webpack",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "mohamed montaser",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "image-minimizer-webpack-plugin": "^3.8.3",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^10.0.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.67.0",
+    "sass-loader": "^13.3.2",
+    "terser": "^5.19.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "axios": "^1.5.0",
+    "normalize.css": "^8.0.1"
+  }
+}

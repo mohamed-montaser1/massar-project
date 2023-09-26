@@ -1,0 +1,30 @@
+.needs {
+  p {
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.2384rem;
+    width: 483px;
+    max-width: 90%;
+    margin-inline: auto;
+  }
+  ul {
+    width: fit-content;
+    margin-inline: auto;
+    li {
+      text-align: right;
+      direction: rtl;
+      line-height: 2.25rem;
+      font-size: 1.2384rem;
+    }
+  }
+  button {
+    height: 3.75rem;
+    width: 22.75rem;
+    max-width: 90%;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+}

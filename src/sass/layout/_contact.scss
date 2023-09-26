@@ -1,0 +1,67 @@
+%form-input {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #a3bac6;
+  width: 366px;
+  max-width: 90%;
+  height: 43px;
+  padding: 8px 10px 9px 10px;
+  display: block;
+}
+
+.contact {
+  h2 {
+    margin-bottom: 0;
+  }
+  .desc {
+    text-align: center;
+    line-height: 2.1875rem;
+    font-size: 1.3622rem;
+    margin-top: 10px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    input {
+      @extend %form-input;
+    }
+    select {
+      @extend %form-input;
+    }
+  }
+  a.more-details {
+    color: #333;
+    font-size: 1.3003rem;
+    font-family: Almarai;
+    font-weight: 700;
+    font-style: normal;
+    height: 2.125rem;
+    width: 19rem;
+    border-radius: 5px;
+    display: block;
+    margin-inline: auto;
+    text-decoration: none;
+    margin-block: 15px;
+    transition: 300ms ease {
+      property: background-color, color;
+    }
+    padding-block: 5px;
+    &:hover {
+      background-color: #333333;
+      color: #ffffff;
+    }
+  }
+  a.phone {
+    line-height: 3rem;
+    font: {
+      size: 1.8576rem;
+      weight: bold;
+    }
+    color: #333;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  }
+}
